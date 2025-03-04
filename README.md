@@ -117,6 +117,7 @@ ielts-progress/
 
 3. **Python Libraries**
     - [`matplotlib`](https://matplotlib.org/) for plotting
+    - <a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">matplotlib</a>
     - `schedule` for reminders     
     - `gspread` and `oauth2client` for Google Sheets integration
 
