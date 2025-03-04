@@ -94,7 +94,7 @@ ielts-progress/
    - Study Hours vs. Date
    - Detailed Scores (Listening, Reading, Writing, Speaking) vs. Date
 
-- **`src/upload_to_sheets.py`**
+- **`src/upload_to_sheets.py`**  
   Reads `score.json` and uploads your data to a Google Sheet titled **IELTS Score**.
 
 - **`docs/ Folder`**
