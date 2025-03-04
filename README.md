@@ -136,25 +136,25 @@ ielts-progress/
    ```
 
 2. **(Optional) Create a Virtual Environment**
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On macOS/Linux
-  venv\Scripts\activate     # On Windows```
-  ```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows```
+   ```
 
 3. **Install Dependencies**
-If you have a requirements.txt, run:
+   If you have a `requirements.txt`, run:
    ```bash
    pip install -r requirements.txt
    ```
-Otherwise, install them individually:
-  ```bash
-  pip install matplotlib schedule gspread oauth2client
-  ```
+   Otherwise, install them individually:
+   ```bash
+   pip install matplotlib schedule gspread oauth2client
+   ```
 
 4. **(Optional) Place Your Credentials File** 
-If you plan to use Google Sheets integration, put your JSON credentials file (e.g., ielts-progress-integration-xxxx.json) in the project root.
-Important: Keep this file out of version control for security (it’s already in .gitignore).
+   If you plan to use Google Sheets integration, put your JSON credentials file (e.g., `ielts-progress-integration-xxxx.json`) in the project root.
+   **Important**: Keep this file out of version control for security (it’s already in `.gitignore`).
 
 ---
 
