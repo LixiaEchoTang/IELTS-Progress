@@ -97,7 +97,7 @@ ielts-progress/
 - **`src/upload_to_sheets.py`**  
   Reads `score.json` and uploads your data to a Google Sheet titled **IELTS Score**.
 
-- **`docs/ Folder`**
+- **`docs/ Folder`**  
   Contains detailed tips and resources for each IELTS skill area: 
    - **reading.md, listening.md, writing.md, speaking.md:** Skill-specific study guides and best practices.
    - **resources.md:** General resources such as official IELTS websites, recommended books, or practice platforms.
