@@ -30,6 +30,8 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 - Upload your data to Google Sheets for easy access and sharing.
 - Explore curated tips and resources for Reading, Listening, Writing, and Speaking.
 
+---
+
 ## Features
 
 1. **Data Visualization**  
@@ -48,6 +50,7 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 
 IELTS-Progress/ ├── .gitignore ├── LICENSE ├── README.md # Project documentation (this file) ├── reminder.py # Script for daily IELTS study reminders ├── score.json # JSON file storing IELTS score data ├── src/ │ ├── plot_score.py # Data visualization script │ └── upload_to_sheets.py # Google Sheets integration script └── docs/ ├── reading.md # IELTS Reading tips ├── listening.md # IELTS Listening tips ├── writing.md # IELTS Writing tips ├── speaking.md # IELTS Speaking tips └── resources.md # Additional resources (websites, books, etc.)
 
+---
 
 ### File Details
 
@@ -69,6 +72,10 @@ IELTS-Progress/ ├── .gitignore ├── LICENSE ├── README.md # Pro
     "detailed": "L-x.x,R-x.x,W-x.x,S-x.x",
     "study_hours": float
   }
+  ```
+
+---
+
 ## File Descriptions
 
 ### src/plot_score.py
@@ -84,6 +91,8 @@ IELTS-Progress/ ├── .gitignore ├── LICENSE ├── README.md # Pro
 Contains detailed tips and resources for each IELTS skill area:
 - **reading.md, listening.md, writing.md, speaking.md:** Skill-specific study guides and best practices.
 - **resources.md:** General resources such as official IELTS websites, recommended books, or practice platforms.
+
+---
 
 ## Prerequisites
 
@@ -107,31 +116,38 @@ Contains detailed tips and resources for each IELTS skill area:
 - A service account and its credentials file (e.g., `ielts-progress-integration-xxxx.json`).
 - A Google Sheet shared with your service account email.
 
+---
+
 ## Installation
 
 1. **Clone or Download the Repository**  
    ```bash
    git clone https://github.com/YourUsername/IELTS-Progress.git
    cd IELTS-Progress
-Or download the ZIP and extract it.
+   ```
 
-2. **(Optional) Create a Virtual Environment
+2. **(Optional) Create a Virtual Environment**
   ```bash
   python -m venv venv
   source venv/bin/activate  # On macOS/Linux
-  venv\Scripts\activate     # On Windows
+  venv\Scripts\activate     # On Windows```
+  ```
 
-3. **Install Dependencies
+3. **Install Dependencies**
 If you have a requirements.txt, run:
    ```bash
    pip install -r requirements.txt
+   ```
 Otherwise, install them individually:
   ```bash
   pip install matplotlib schedule gspread oauth2client
+  ```
 
-4. **(Optional) Place Your Credentials File
+4. **(Optional) Place Your Credentials File** 
 If you plan to use Google Sheets integration, put your JSON credentials file (e.g., ielts-progress-integration-xxxx.json) in the project root.
 Important: Keep this file out of version control for security (it’s already in .gitignore).
+
+---
 
 # Usage
 
@@ -149,6 +165,7 @@ Important: Keep this file out of version control for security (it’s already in
 ### How to Run:
 ```bash
 python src/plot_score.py
+```
 
 ## Tips
 
@@ -165,7 +182,7 @@ python src/plot_score.py
 ### How to Run:
 ```bash
 python reminder.py
-
+```
 **Note:** Keep the script running in your terminal; it will print a message at the scheduled time.
 
 ## 3. Google Sheets Integration
@@ -180,6 +197,7 @@ python reminder.py
 ### How to Run:
 ```bash
 python src/upload_to_sheets.py
+```
 
 ### What It Does:
 - Reads data from `score.json`.
@@ -198,9 +216,13 @@ This project also contains a `docs/` folder with various skill-specific guides a
 
 Feel free to explore these files for advice on improving each skill area, as well as recommended materials and websites to supplement your IELTS preparation.
 
+---
+
 ## License
 
 This project is licensed under the MIT License. You’re free to use, modify, and distribute this software under the terms of the license.
+
+---
 
 ## Contributing
 
