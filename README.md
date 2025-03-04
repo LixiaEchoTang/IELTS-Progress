@@ -162,7 +162,7 @@ ielts-progress/
 
 ## 1. Data Visualization
 
-**Script:** `src/plot_score.py`
+### Script:###  `src/plot_score.py`
 
 ### How It Works:
 - Reads `score.json` to get your IELTS data.
@@ -176,9 +176,9 @@ ielts-progress/
 python src/plot_score.py
 ```
 
-## Tips
+### Tips
 
-- Ensure `score.json` is in the root directory (the same level as `README.md`).
+- Ensure `score.json` is in the **root directory** (the same level as `README.md`).
 - Update or add new entries in `score.json` as you take more tests or study.
 
 ## 2. Goal Reminders
