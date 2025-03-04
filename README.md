@@ -139,7 +139,7 @@ ielts-progress/
    ```bash
    python -m venv venv
    source venv/bin/activate  # On macOS/Linux
-   venv\Scripts\activate     # On Windows```
+   venv\Scripts\activate     # On Windows
    ```
 
 3. **Install Dependencies**
@@ -153,7 +153,7 @@ ielts-progress/
    ```
 
 4. **(Optional) Place Your Credentials File** 
-   If you plan to use Google Sheets integration, put your JSON credentials file (e.g., `ielts-progress-integration-xxxx.json`) in the project root.
+   If you plan to use Google Sheets integration, put your JSON credentials file (e.g., `ielts-progress-integration-xxxx.json`) in the project root.  
    **Important**: Keep this file out of version control for security (it’s already in `.gitignore`).
 
 ---
