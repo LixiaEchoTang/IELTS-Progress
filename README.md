@@ -116,8 +116,8 @@ ielts-progress/
     - Useful if you want to clone the repository instead of downloading a ZIP file.
 
 3. **Python Libraries**
-    - `matplotlib` for plotting
-    - `schedule` for reminders
+    - ]`matplotlib`](https://matplotlib.org/) for plotting
+    - `schedule` for reminders     
     - `gspread` and `oauth2client` for Google Sheets integration
 
 4. **Google Cloud Setup (for Sheets Integration)**
