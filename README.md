@@ -117,9 +117,8 @@ ielts-progress/
 
 3. **Python Libraries**
     - [`matplotlib`](https://matplotlib.org/) for plotting
-    - <a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">matplotlib</a>
-    - `schedule` for reminders     
-    - `gspread` and `oauth2client` for Google Sheets integration
+    - [`schedule`](https://pypi.org/project/schedule/) for reminders     
+    - [`gspread`](https://pypi.org/project/gspread/) and [`oauth2client`](https://pypi.org/project/oauth2client/) for Google Sheets integration
 
 4. **Google Cloud Setup (for Sheets Integration)**
     - A Google Cloud project with the **Google Sheets API** and **Google Drive API** enabled.
