@@ -116,7 +116,7 @@ ielts-progress/
     - Useful if you want to clone the repository instead of downloading a ZIP file.
 
 3. **Python Libraries**
-    - ]`matplotlib`](https://matplotlib.org/) for plotting
+    - [`matplotlib`](https://matplotlib.org/) for plotting
     - `schedule` for reminders     
     - `gspread` and `oauth2client` for Google Sheets integration
 
