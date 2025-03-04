@@ -30,8 +30,6 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 - Upload your data to Google Sheets for easy access and sharing.
 - Explore curated tips and resources for Reading, Listening, Writing, and Speaking.
 
----
-
 ## Features
 
 1. **Data Visualization**  
@@ -45,6 +43,8 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 
 4. **IELTS Study Resources**  
    - The `docs/` folder contains skill-specific tips and resources for Reading, Listening, Writing, and Speaking, plus a general `resources.md` for additional study materials.
+
+---
 
 ## Project Structure
 
@@ -65,8 +65,6 @@ ielts-progress/
 ├── reminder.py             # Script for daily IELTS study reminders
 └── score.json              # JSON file storing IELTS score data
 ```
-
----
 
 ### File Details
 
