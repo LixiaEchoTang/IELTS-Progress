@@ -48,10 +48,11 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 
 ## Project Structure
 
+```plaintext
 ielts-progress/
-├── README.md               # Overview of your project
-├── .gitignore              # Ignore files you don't want to commit
-├── LICENSE                 # MIT License file
+├── README.md                # Overview of your project
+├── .gitignore               # Ignore files you don't want to commit
+├── LICENSE                  # MIT License file
 ├── docs/                   # Documentation (IELTS tips & resources)
 │   ├── reading.md          # IELTS Reading tips
 │   ├── listening.md        # IELTS Listening tips
@@ -63,6 +64,7 @@ ielts-progress/
 │   └── upload_to_sheets.py # Google Sheets integration script
 ├── reminder.py             # Script for daily IELTS study reminders
 └── score.json              # JSON file storing IELTS score data
+```
 
 ---
 
