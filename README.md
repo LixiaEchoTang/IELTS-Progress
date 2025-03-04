@@ -48,7 +48,21 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 
 ## Project Structure
 
-IELTS-Progress/ ├── .gitignore ├── LICENSE ├── README.md # Project documentation (this file) ├── reminder.py # Script for daily IELTS study reminders ├── score.json # JSON file storing IELTS score data ├── src/ │ ├── plot_score.py # Data visualization script │ └── upload_to_sheets.py # Google Sheets integration script └── docs/ ├── reading.md # IELTS Reading tips ├── listening.md # IELTS Listening tips ├── writing.md # IELTS Writing tips ├── speaking.md # IELTS Speaking tips └── resources.md # Additional resources (websites, books, etc.)
+ielts-progress/
+├── README.md                # Overview of your project
+├── .gitignore               # Ignore files you don't want to commit
+├── LICENSE                  # MIT License file
+├── docs/                   # Documentation (IELTS tips & resources)
+│   ├── reading.md          # IELTS Reading tips
+│   ├── listening.md        # IELTS Listening tips
+│   ├── writing.md          # IELTS Writing tips
+│   ├── speaking.md         # IELTS Speaking tips
+│   └── resources.md        # Additional resources (websites, books, etc.)
+├── src/                    # Your source code (data visualization, Google Sheets integration)
+│   ├── plot_score.py       # Data visualization script
+│   └── upload_to_sheets.py # Google Sheets integration script
+├── reminder.py             # Script for daily IELTS study reminders
+└── score.json              # JSON file storing IELTS score data
 
 ---
 
