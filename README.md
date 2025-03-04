@@ -49,9 +49,9 @@ This repository helps you log, analyze, and improve your IELTS study progress. Y
 ## Project Structure
 
 ielts-progress/
-├── README.md                # Overview of your project
-├── .gitignore               # Ignore files you don't want to commit
-├── LICENSE                  # MIT License file
+├── README.md               # Overview of your project
+├── .gitignore              # Ignore files you don't want to commit
+├── LICENSE                 # MIT License file
 ├── docs/                   # Documentation (IELTS tips & resources)
 │   ├── reading.md          # IELTS Reading tips
 │   ├── listening.md        # IELTS Listening tips
