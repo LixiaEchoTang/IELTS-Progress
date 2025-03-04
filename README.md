@@ -88,19 +88,19 @@ ielts-progress/
   }
   ```
 
-- **`src/plot_score.py`** 
+- **`src/plot_score.py`**  
   Reads `score.json` and plots three charts:
-  - Overall IELTS Score vs. Date
-  - Study Hours vs. Date
-  - Detailed Scores (Listening, Reading, Writing, Speaking) vs. Date
+   - Overall IELTS Score vs. Date
+   - Study Hours vs. Date
+   - Detailed Scores (Listening, Reading, Writing, Speaking) vs. Date
 
 - **`src/upload_to_sheets.py`**
   Reads `score.json` and uploads your data to a Google Sheet titled **IELTS Score**.
 
 - **`docs/ Folder`**
-Contains detailed tips and resources for each IELTS skill area:
-- **reading.md, listening.md, writing.md, speaking.md:** Skill-specific study guides and best practices.
-- **resources.md:** General resources such as official IELTS websites, recommended books, or practice platforms.
+  Contains detailed tips and resources for each IELTS skill area: 
+   - **reading.md, listening.md, writing.md, speaking.md:** Skill-specific study guides and best practices.
+   - **resources.md:** General resources such as official IELTS websites, recommended books, or practice platforms.
 
 ---
 
