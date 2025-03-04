@@ -106,25 +106,23 @@ ielts-progress/
 
 ## Prerequisites
 
-- **Python 3.7+**
+1. **Python 3.7+**
   - Make sure you have Python installed. You can check your version with:
     ```bash
     python --version
     ```
-- **Git (optional but recommended)**
+2. **Git (optional but recommended)**
   - Useful if you want to clone the repository instead of downloading a ZIP file.
 
-### Python Libraries
+3. **Python Libraries**
+  - `matplotlib` for plotting
+  - `schedule` for reminders
+  - `gspread` and `oauth2client` for Google Sheets integration
 
-- `matplotlib` for plotting
-- `schedule` for reminders
-- `gspread` and `oauth2client` for Google Sheets integration
-
-### Google Cloud Setup (for Sheets Integration)
-
-- A Google Cloud project with the Google Sheets API and Google Drive API enabled.
-- A service account and its credentials file (e.g., `ielts-progress-integration-xxxx.json`).
-- A Google Sheet shared with your service account email.
+4. **Google Cloud Setup (for Sheets Integration)**
+  - A Google Cloud project with the **Google Sheets API** and **Google Drive API** enabled.
+  - A **service account** and its credentials file (e.g., `ielts-progress-integration-xxxx.json`).
+  - A Google Sheet shared with your service account email.
 
 ---
 
