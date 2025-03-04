@@ -161,54 +161,47 @@ ielts-progress/
 # Usage
 
 ## 1. Data Visualization
-- Script:  `src/plot_score.py`
--  How It Works:
+- **Script:**  `src/plot_score.py`
+-  **How It Works:**
    - Reads `score.json` to get your IELTS data.
    - Plots:
      - Overall Score vs. Date
      - Study Hours vs. Date
      - Detailed Scores (L, R, W, S) vs. Date
--  How to Run:
+-  **How to Run:**
      ```bash
      python src/plot_score.py
      ```
--  Tips
+-  **Tips**
    - Ensure `score.json` is in the **root directory** (the same level as `README.md`).
    - Update or add new entries in `score.json` as you take more tests or study.
 
 ## 2. Goal Reminders
-
-**Script:** `reminder.py`
-
-### How It Works:
-- Uses the `schedule` library to print a reminder every day at 19:00 (7 PM).
-
-### How to Run:
-```bash
-python reminder.py
-```
-**Note:** Keep the script running in your terminal; it will print a message at the scheduled time.
+- **Script:** `reminder.py`
+-  **How It Works:**
+   - Uses the `schedule` library to print a reminder every day at 19:00 (7 PM).
+-  **How to Run:**
+    ```bash
+    python reminder.py
+    ```
+    **Note:** Keep the script running in your terminal; it will print a message at the scheduled time.
 
 ## 3. Google Sheets Integration
+- **Script:** `src/upload_to_sheets.py`
+-  **Prerequisites:**   
+   - Enable **Google Sheets** and **Google Drive** APIs in your Google Cloud project.
+   - Download your service account JSON (e.g., `ielts-progress-integration-xxxx.json`) and place it in the project root.
+   - Share your Google Sheet with the service account’s email.
+-  **How to Run:**
+   ```bash
+   python src/upload_to_sheets.py
+   ```
+-  **What It Does:**
+   - Reads data from `score.json`.
+   - Clears the existing data in your Google Sheet named **IELTS Score**.
+   - Appends a header row, then adds each entry from `score.json` as a new row.
 
-**Script:** `src/upload_to_sheets.py`
-
-### Prerequisites:
-- Enable Google Sheets and Google Drive APIs in your Google Cloud project.
-- Download your service account JSON (e.g., `ielts-progress-integration-xxxx.json`) and place it in the project root.
-- Share your Google Sheet with the service account’s email.
-
-### How to Run:
-```bash
-python src/upload_to_sheets.py
-```
-
-### What It Does:
-- Reads data from `score.json`.
-- Clears the existing data in your Google Sheet named "IELTS Score".
-- Appends a header row, then adds each entry from `score.json` as a new row.
-
-## IELTS Tips & Resources
+## 4. IELTS Tips & Resources
 
 This project also contains a `docs/` folder with various skill-specific guides and general resources:
 
