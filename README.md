@@ -162,22 +162,19 @@ ielts-progress/
 
 ## 1. Data Visualization
 - Script:  `src/plot_score.py`
-
 -  How It Works:
- - Reads `score.json` to get your IELTS data.
- - Plots:
-  - Overall Score vs. Date
-  - Study Hours vs. Date
-  - Detailed Scores (L, R, W, S) vs. Date
-
+   - Reads `score.json` to get your IELTS data.
+   - Plots:
+     - Overall Score vs. Date
+     - Study Hours vs. Date
+     - Detailed Scores (L, R, W, S) vs. Date
 -  How to Run:
-```bash
-python src/plot_score.py
-```
-
+     ```bash
+     python src/plot_score.py
+     ```
 -  Tips
- - Ensure `score.json` is in the **root directory** (the same level as `README.md`).
- - Update or add new entries in `score.json` as you take more tests or study.
+   - Ensure `score.json` is in the **root directory** (the same level as `README.md`).
+   - Update or add new entries in `score.json` as you take more tests or study.
 
 ## 2. Goal Reminders
 
